@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    padding-bottom: 30px;
+    background: #777;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    border-bottom: 0.1rem solid white;
+    position: fixed;
+    top: 0%;
+    background: black;
+    width: 100%;
+    z-index: 1;
+}
+
+header li {
+    margin: 0px 40px;
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header h1 {
+    padding: 40px;
+    font-size: 100px;
+}
+
+/*main*/
+
+#about {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+
+section h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'MedievalSharp', sans-serif;
+}
+
+#about img {
+    float: left;
+    margin: 20px 50px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#about p {
+    font-size: 17px;
+    margin: 20px;
+    color: #777;
+}
+
+/*-----------------------------------------------footer*/
+
+footer {
+    display: flex;
+    margin-top: 40px;
+    padding: 20px;
+    background: skyblue;
+}
+
+footer .footer-title {
+    text-align: center;
+    color: white;
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+footer .footer-icons {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-icons ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-icons li {
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+.footer-icons img {
+    width: 30px;
+}
